@@ -1,0 +1,73 @@
+body{
+  background: url("https://cdn.mwallpapers.com/photos/celebrities/others/book-wallpaper-hd-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-ctsi6.jpg ");
+  background-position: center;
+  background-size: cover;
+  height:600px;
+
+}
+.p{
+  height: 300px;
+  margin-left: 150px;
+  animation:pic 4s infinite ease-in-out alternate;
+
+}
+@keyframes pic{
+  to{
+    transform: translateX(+70px);
+  }
+}
+ 
+.x{
+  display: flex;
+  justify-content: space-between;
+}
+
+.c{
+  display: flex;
+  float: right;
+  font-size:large;
+  margin:0px;
+
+margin-bottom: 20px;
+  
+}
+
+/* title */
+.b {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.d:hover{
+  color: brown;
+  font-size: larger;
+  cursor: pointer;
+
+}
+/* text */
+p {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation: alternate;
+margin-top: 100px;
+  animation-iteration-count: infinite;
+  font-size:x-large;
+  
+ 
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
